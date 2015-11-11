@@ -1,0 +1,30 @@
+{
+  "name": "dan/larascrape",
+  "description": "A Laravel implementation of AiScrapers.",
+  "license": "MIT",
+  "keywords": ["scraper","crawler","ai"],
+  "authors": [
+    {
+      "name": "Dan Richards",
+      "email": "danrichardsri@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "dan/aiscrapers": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dan\\Larascrape\\": "src/Dan/Larascrape/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LarascrapeTests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable"
+}
